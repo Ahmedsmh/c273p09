@@ -1,5 +1,4 @@
 <?php
-
 /*
     $username = "root"; 
     $password = "";         // No password for localhost
@@ -34,5 +33,6 @@ if (!$link) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
+
 ?>
 

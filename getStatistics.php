@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <?php
 include("dbFunctions.php");
 
@@ -17,16 +12,3 @@ while ($row = mysqli_fetch_assoc($result)) {
 mysqli_close($link);
 echo json_encode($stat);
 ?>
-
-
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
